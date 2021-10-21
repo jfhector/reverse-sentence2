@@ -1,11 +1,19 @@
 {
   "name": "@jfhl_playground/reverse-sentence",
   "version": "1.0.0",
-  "description": "",
+  "description": "Some info",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "J.F. Hector-Labram",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfhector/reverse-sentence2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jfhector/reverse-sentence2/issues"
+  },
+  "homepage": "https://github.com/jfhector/reverse-sentence2#readme"
 }
