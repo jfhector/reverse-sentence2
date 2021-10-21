@@ -1,10 +1,12 @@
 {
-  "name": "@jfhl_playground/reverse-sentence",
+  "name": "@jfhector/reverse-sentence",
   "version": "0.1.0",
   "description": "Some info",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/prettier/bin-prettier.js . --write",
+    "lint2": "prettier . --write"
   },
   "author": "J.F. Hector-Labram",
   "license": "MIT",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jfhector/reverse-sentence2/issues"
   },
-  "homepage": "https://github.com/jfhector/reverse-sentence2#readme"
+  "homepage": "https://github.com/jfhector/reverse-sentence2#readme",
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
 }

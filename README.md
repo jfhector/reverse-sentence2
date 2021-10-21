@@ -1,3 +1,35 @@
-# README
+## Install
 
-Some info
+```sh
+
+npm install @jfhector/reverse-sentence
+
+```
+
+## API
+
+```js
+
+require("reverse-sentence") => Function
+
+reverse(sentence) => String
+
+```
+
+## Example
+
+```js
+
+const reverseSentence = require("reverse-sentence");
+
+const sentence = "Hello Beth!";
+
+const reversed = reverseSentence(sentence);
+
+console.log(reversed) // Beth! Hello
+
+```
+
+## License
+
+MIT
