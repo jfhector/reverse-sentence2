@@ -1,6 +1,6 @@
 {
   "name": "@jfhl_playground/reverse-sentence",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Some info",
   "main": "index.js",
   "scripts": {
