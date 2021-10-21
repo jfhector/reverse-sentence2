@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "./node_modules/prettier/bin-prettier.js . --write",
-    "lint2": "prettier . --write"
+    "lint2": "prettier . --write",
+    "prepublish": "npm run lint"
   },
   "author": "J.F. Hector-Labram",
   "license": "MIT",
